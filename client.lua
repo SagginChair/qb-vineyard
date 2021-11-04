@@ -79,7 +79,7 @@ Citizen.CreateThread(function()
 					Vineyard = true
 					if nearlocation <= 3 then
 						if not startVineyard then
-							DrawText3Ds(-1928.81, 2059.53, 140.84, "[E] Start Picking Grapes") 
+							DrawText3Ds(-1924.06, 2054.5, 140.83, "[E] Start Picking Grapes") 
 							
 								if IsControlJustReleased(0,38) then
 									if PlayerJob.name == "vineyard" then
